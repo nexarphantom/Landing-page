@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.hero {
+    background-image: url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.text{
+    color: white;
+    text-align: center;
+    size: 900px;
+    margin 0 auto;
+    padding-top: 80px;
+    padding-left: 55px;
+    max-width: 900px;
+    font-size: 30px;
+    
+}
+.box{
+    background-color: #000;
+    padding: 35px;
+    display: flex;
+    
+}
+.box h2{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+.work{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin-left: 15px;
+
+}
+.card{
+    max-width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mh{
+    margin-left: 250px;
+}
